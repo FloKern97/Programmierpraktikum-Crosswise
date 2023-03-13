@@ -1,0 +1,47 @@
+Player0 | Mario | isActive: true | AI | hand: [1, 9, 10, 4]
+
+Player1 | Bowser | isActive: true | AI | hand: [4, 3, 4, 2]
+
+Player2 | Luigi | isActive: true | AI | hand: [3, 6, 6, 4]
+
+Player3 | Waluigi | isActive: true | Human | hand: [4, 10, 1, 2]
+
+Mario | Token [1] placed at [0|0] | Token pulled from hand at position [0] | Hand is now: [9, 10, 4, 1]
+
+Field is now: [
+[1, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0]
+],
+
+usedActionTiles: [0, 0, 0, 0]
+Game status: Ongoing
+Bowser | Token [4] placed at [1|0] | Token pulled from hand at position [0] | Hand is now: [3, 4, 2, 5]
+
+Field is now: [
+[1, 0, 0, 0, 0, 0],
+[4, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0]
+],
+
+usedActionTiles: [0, 0, 0, 0]
+Game status: Ongoing
+Luigi | Token [4] placed at [1|1] | Token pulled from hand at position [3] | Hand is now: [3, 6, 6, 2]
+
+Field is now: [
+[1, 0, 0, 0, 0, 0],
+[4, 4, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0]
+],
+
+usedActionTiles: [0, 0, 0, 0]
+Game status: Ongoing

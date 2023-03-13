@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="root" alignment="CENTER" prefHeight="448.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="448.0" prefWidth="282.0">
+         <children>
+            <GridPane fx:id="grid" prefHeight="494.0" prefWidth="100.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="107.0" minHeight="0.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="228.0" minHeight="10.0" prefHeight="162.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="160.0" minHeight="10.0" prefHeight="160.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnSpan="2147483647">
+                     <children>
+                        <Label fx:id="lblHeadLine" text="WINNER">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblWinningTeam" text="&lt;Team&gt;">
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblWinReason" style="-fx-border-style: none none solid none;" text="Win by &lt;Reason&gt;">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <Label style="-fx-background-color: Orange;" text="Vertical Team">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="181.0" prefWidth="141.0" GridPane.rowIndex="3">
+                     <children>
+                        <Label style="-fx-background-color: Lime;" text="Horizontal Team">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblVertPoints" text="&lt;Points&gt;">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="lblHorPoints" text="&lt;Points&gt;">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>
