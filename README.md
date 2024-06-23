@@ -1,3 +1,6 @@
-This is a JavaFX project implementing a game called 'Crosswise'. The game can be played with 2 or 4 people. 
-One team is putting tokens on the rows of the field, the other is using the columns.
-The goal of the game is to accumulate point through putting tokens of the same kind in their respective cells.
+In diesem JavaFx-Projekt wurde das Brettspiel 'Crosswise' umgesetzt.
+Das Spiel kann mit 2 oder 4 Leuten oder gegen eine KI gespielt werden.
+Ein Team spielt in horizontale Richtung des Felds, das andere in vertikale Richtung.
+Das Ziel des Spiels ist es, Steine derselben Art in eine Reihe zu legen, um Punkte zu erlangen.
+Neben den normalen Spielsteinen existieren Spezialsteine, die es erlauben, die Position von Steinen
+zu verändern.
